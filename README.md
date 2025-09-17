@@ -93,5 +93,5 @@ Suivez les instructions à l’écran pour effectuer les opérations.
 
 ##  Auteurs
 
-* **Abada aziz* – Développeur
+* **Abada aziz** – Développeur
 
