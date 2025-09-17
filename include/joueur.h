@@ -25,22 +25,39 @@ struct Joueur {
 };
 
 int ajouterJoueur(struct Joueur J[], int nbrJoueur);
+
 int ajouterPlusieursJoueur(struct Joueur J[], int nbrJoueur);
+
 void afficherListeJoueur(struct Joueur J[], int nbrJoueur);
+
 void afficherJoueurRecherche(struct Joueur J[], int position, int nbrJoueur);
+
 struct Joueur *triParNom(struct Joueur J[], int nbrJoueur);
+
 struct Joueur *triParAge(struct Joueur J[], int nbrJoueur);
+
 struct Joueur *triParPoste(struct Joueur J[], int nbrJoueur);
+
 int rechercherParId(struct Joueur J[], int nbrJoueur);
+
 int rechercherParNom(struct Joueur J[], int nbrJoueur);
+
 void modifierPost(struct Joueur J[], int position);
+
 void modifierStatut(struct Joueur J[], int position);
+
 void modifierAge(struct Joueur J[], int position);
+
 void modifierNbrBut(struct Joueur J[], int position);
+
 int supprimerJoueur(int position, struct Joueur Equipe[], int nbrJoueur);
+
 void ageMoyenne(struct Joueur J[], int nbrJoueur);
+
 void joueurMaxButs(struct Joueur J[], int nbrJoueur);
+
 void maxButeur(struct Joueur J[], int nbrJoueur);
+
 void plusAgePlusJeune(struct Joueur J[], int nbrJoueur);
 
 #endif
