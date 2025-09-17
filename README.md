@@ -57,8 +57,6 @@ Projet\_Fin\_SAS/
 
 ## Compilation et exécution
 
-### 1. Avec **gcc** directement
-
 Dans le dossier `src` :
 
 ```bash
@@ -96,5 +94,4 @@ Suivez les instructions à l’écran pour effectuer les opérations.
 ##  Auteurs
 
 * **Abada aziz* – Développeur
-* **Encadrant / Binôme** – Encadrement / Collaboration
 
